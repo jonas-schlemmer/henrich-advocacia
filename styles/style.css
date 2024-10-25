@@ -1,0 +1,71 @@
+@font-face {
+    /* font-family: 'times-new-roman';
+    src: url(../fonts/times-new-roman.ttf); */
+    font-family: 'rubik';
+    src: url(../fonts/rubik.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.blue-color {
+    background-color: #020238;
+}
+
+.black-color {
+    background-color: #000000;
+}
+
+body {
+    /* font-family: 'times-new-roman'; */
+    font-family: 'rubik';
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 4rem;
+    color: #FFFFFF;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 10rem;
+    margin-left: 5rem;
+}
+
+.logo h3 {
+    font-family: 'rubik';
+    color: #FFFFFF;
+    font-size: 2rem;
+}
+
+nav .menu {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    font-family: 'rubik';
+}
+
+nav .menu li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1.25rem;
+}
+
+nav .menu li a.active{
+    font-weight: bolder;
+}
+
+nav .menu li a:hover {
+    color: #CCCCCC;
+}
