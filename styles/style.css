@@ -3,6 +3,14 @@
     src: url('fonts/rubik.ttf');
 }
 
+::selection {
+    background: #D7BB3E;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 .bg-color-black {
     background-color: #000000;
 }
@@ -31,33 +39,26 @@ header .logo {
 
 header .logo img {
     height: 10rem;
-    margin-left: 5rem;
+    margin-left: 2.5rem;
 }
 
 header nav .menu {
     list-style: none;
     display: flex;
-    gap: 2rem;
-    /* font-family: 'Times New Roman', 'Rubik'; */
+    gap: 3rem;
     font-family: 'Rubik', 'Times New Roman';
 }
-
-/* header nav .menu li {
-    margin-top: 1rem;
-} */
 
 header nav .menu li a {
     text-decoration: none;
     color: #FFFFFF;
-    font-size: 1.25rem;
+    font-size: 1.20rem;
 }
 
 header nav .menu li a.active {
     color: #D7BB3E;
-    /* font-weight: bolder; */
 }
 
 header nav .menu li a:hover {
-    /* color: #CCCCCC; */
     color: #D7BB3E;
 }
