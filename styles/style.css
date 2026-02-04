@@ -3,6 +3,10 @@
     src: url('fonts/rubik.ttf');
 }
 
+* {
+    font-family: 'Rubik';
+}
+
 ::selection {
     background: #D7BB3E;
 }
@@ -61,4 +65,75 @@ header nav .menu li a.active {
 
 header nav .menu li a:hover {
     color: #D7BB3E;
+}
+
+main {
+    margin: 4rem 16rem 4rem 16rem;
+}
+
+main h2 {
+    text-decoration: underline;
+    margin-top: 1rem;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    color: #FFFFFF;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 10rem;
+    font-family: 'Rubik', 'Times New Roman';
+}
+
+footer .logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .logo img {
+    height: 8rem;
+    margin-left: 10rem;
+}
+
+footer .content {
+    margin: 5.5rem;
+}
+
+footer .content nav {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+    font-family: 'Rubik', 'Times New Roman';
+}
+
+footer .content nav ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1.20rem;
+}
+
+footer .content nav ul li:hover,
+footer .content nav ul li a:hover {
+    color: #D7BB3E;
+}
+
+#btn-topo {
+    position: fixed;
+    bottom: 12rem;
+    right: 1.5rem;
+    background: #D7BB3E;
+    padding: 16px;
+    border-radius: 50%;
+}
+
+#btn-topo img {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
 }

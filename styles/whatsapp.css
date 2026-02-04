@@ -2,10 +2,10 @@
     display: flex;
     position: fixed;
     background: #25D366;
-    bottom: 25px;
+    bottom: 3rem;
     border-radius: 50%;
-    width: 64px;
-    height: 64px;
+    width: 4rem;
+    height: 4rem;
     box-shadow: 2px 2px 12px rgba(22,124,60,.2);
     transition: .4s;
     align-items: center;
