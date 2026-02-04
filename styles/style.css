@@ -124,6 +124,7 @@ footer .content nav ul li a:hover {
 }
 
 #btn-topo {
+    display: none;
     position: fixed;
     bottom: 12rem;
     right: 1.5rem;
