@@ -20,10 +20,13 @@ window.addEventListener('load', () => {
 
 
 const btnTopo = document.getElementById("btn-topo");
+const rem = parseFloat(getComputedStyle(document.documentElement).fontSize);
+
 
   window.addEventListener("scroll", () => {
-    if (window.scrollY > 200) {
-        btnTopo.style.display = 'flex'
+    if (window.scrollY > 12 * rem) {
+      btnTopo.style.display = 'flex';
+
     } else {
         btnTopo.style.display = 'none'
     }
